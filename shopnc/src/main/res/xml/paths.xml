@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress ALL -->
+
+<resources>
+
+    <paths>
+
+        <external-path
+            name="files_root"
+            path="Android/data/top.yokey.shopnc/down/" />
+
+        <external-path
+            name="external_storage_root"
+            path="." />
+    </paths>
+
+    <paths>
+
+        <external-path
+            name="files_root"
+            path="Android/data/top.yokey.shopnc/cache/" />
+
+        <external-path
+            name="external_storage_root"
+            path="." />
+
+    </paths>
+
+    <paths>
+
+        <external-path
+            name="files_root"
+            path="Android/data/top.yokey.shopnc/image/" />
+
+        <external-path
+            name="external_storage_root"
+            path="." />
+
+    </paths>
+
+</resources>
