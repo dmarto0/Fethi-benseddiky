@@ -1,6 +1,6 @@
 **# 特别提醒**
 
-本项目2018年6月8日转入Shopwt开发，新项目地址：[Shopwt Andoird](https://gitee.com/MapStory/Shopwt-Android) 
+本项目2018年6月8日转入Shopwt开发，新项目地址：[Shopwt Andoird 码云](https://gitee.com/MapStory/Shopwt-Android) [Shopwt Andoird Github](https://github.com/oyo775881/Shopwt-Android)
 
 本项目2018年6月8日之后不再进行新功能开发，仅做一些BUG修改，紧随时代潮流，改用Shopwt吧~
 
