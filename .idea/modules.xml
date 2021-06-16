@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Shopnc.iml" filepath="$PROJECT_DIR$/Shopnc.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopnc/shopnc.iml" filepath="$PROJECT_DIR$/shopnc/shopnc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopnc/shopnc.iml" filepath="$PROJECT_DIR$/shopnc/shopnc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopnc-android.iml" filepath="$PROJECT_DIR$/shopnc-android.iml" />
     </modules>
   </component>
 </project>
