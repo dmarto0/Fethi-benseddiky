@@ -51,6 +51,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Main"
+        android:usesCleartextTraffic="true"
         tools:replace="android:name">
 
         <!-- Base -->

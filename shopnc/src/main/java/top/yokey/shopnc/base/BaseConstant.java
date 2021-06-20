@@ -54,7 +54,7 @@ public class BaseConstant {
     public static final String SHARED_SETTING_PUSH = "shared_settingd_push";
     public static final String SHARED_SETTING_IMAGE = "shared_setting_image";
 
-    public static final String URL = "http://v5.33hao.com/";
+    public static final String URL = "http://rnds168.cn/";
     public static final String URL_API = URL + "mobile/index.php";
     public static final String URL_LOGIN_WB = URL_API + "?act=connect&op=get_sina_oauth2";
     public static final String URL_STORE_INFO = URL + "wap/tmpl/store_intro.html?store_id=";
@@ -64,6 +64,5 @@ public class BaseConstant {
     //第三方
 
     public static final String WX_APP_ID = "wx67bc79b681fee1b3";
-    public static final String BUGLY_APP_ID = "c5b746f3d7";
 
 }
