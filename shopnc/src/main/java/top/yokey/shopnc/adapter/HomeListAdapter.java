@@ -36,13 +36,11 @@ public class HomeListAdapter extends RecyclerView.Adapter<HomeListAdapter.ViewHo
     private final Activity activity;
     private final ArrayList<HomeBean> arrayList;
     private OnItemClickListener onItemClickListener;
-    private final GridLayoutManager gridLayoutManager;
 
     public HomeListAdapter(Activity activity, ArrayList<HomeBean> arrayList) {
         this.activity = activity;
         this.arrayList = arrayList;
         this.onItemClickListener = null;
-        gridLayoutManager= new GridLayoutManager(activity,2);
     }
 
     @Override
@@ -87,7 +85,6 @@ public class HomeListAdapter extends RecyclerView.Adapter<HomeListAdapter.ViewHo
                 holder.mainRecyclerView.setVisibility(View.VISIBLE);
                 Home3ListAdapter home3ListAdapter = new Home3ListAdapter(activity, bean.getHome3Bean().getItem());
                 BaseApplication.get().setRecyclerView(BaseApplication.get(), holder.mainRecyclerView, home3ListAdapter);
-                holder.mainRecyclerView.setLayoutManager(gridLayoutManager);
                 break;
             case "home4":
                 title = bean.getHome4Bean().getTitle();
@@ -119,7 +116,7 @@ public class HomeListAdapter extends RecyclerView.Adapter<HomeListAdapter.ViewHo
                 holder.mainRecyclerView.setVisibility(View.VISIBLE);
                 HomeGoodsListAdapter homeGoodsListAdapter = new HomeGoodsListAdapter(activity, bean.getGoodsBean().getItem());
                 BaseApplication.get().setRecyclerView(BaseApplication.get(), holder.mainRecyclerView, homeGoodsListAdapter);
-                holder.mainRecyclerView.setLayoutManager(gridLayoutManager);
+                holder.mainRecyclerView.setLayoutManager(new GridLayoutManager(activity,2));
                 holder.mainRecyclerView.setPadding(BaseApplication.get().dipToPx(2), 0, BaseApplication.get().dipToPx(2), 0);
                 break;
             case "goods1":
@@ -127,7 +124,7 @@ public class HomeListAdapter extends RecyclerView.Adapter<HomeListAdapter.ViewHo
                 holder.mainRecyclerView.setVisibility(View.VISIBLE);
                 HomeGoods1ListAdapter homeGoods1ListAdapter = new HomeGoods1ListAdapter(activity, bean.getGoods1Bean().getItem());
                 BaseApplication.get().setRecyclerView(BaseApplication.get(), holder.mainRecyclerView, homeGoods1ListAdapter);
-                holder.mainRecyclerView.setLayoutManager(gridLayoutManager);
+                holder.mainRecyclerView.setLayoutManager(new GridLayoutManager(activity,2));
                 holder.mainRecyclerView.setPadding(BaseApplication.get().dipToPx(2), 0, BaseApplication.get().dipToPx(2), 0);
                 break;
             case "goods2":
@@ -135,7 +132,7 @@ public class HomeListAdapter extends RecyclerView.Adapter<HomeListAdapter.ViewHo
                 holder.mainRecyclerView.setVisibility(View.VISIBLE);
                 HomeGoods2ListAdapter homeGoods2ListAdapter = new HomeGoods2ListAdapter(activity, bean.getGoods2Bean().getItem());
                 BaseApplication.get().setRecyclerView(BaseApplication.get(), holder.mainRecyclerView, homeGoods2ListAdapter);
-                holder.mainRecyclerView.setLayoutManager(gridLayoutManager);
+                holder.mainRecyclerView.setLayoutManager(new GridLayoutManager(activity,2));
                 holder.mainRecyclerView.setPadding(BaseApplication.get().dipToPx(2), 0, BaseApplication.get().dipToPx(2), 0);
                 break;
         }
