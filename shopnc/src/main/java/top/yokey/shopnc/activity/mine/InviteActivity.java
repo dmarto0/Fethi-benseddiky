@@ -1,8 +1,8 @@
 package top.yokey.shopnc.activity.mine;
 
-import android.support.v7.widget.AppCompatEditText;
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.Toolbar;
 
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseCountTime;

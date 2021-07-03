@@ -1,8 +1,8 @@
 package top.yokey.shopnc.activity.seller;
 
-import android.support.v4.widget.NestedScrollView;
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.core.widget.NestedScrollView;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.view.View;
 import android.widget.RelativeLayout;
 

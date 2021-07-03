@@ -1,7 +1,7 @@
 package top.yokey.shopnc.activity.mine;
 
-import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
 
 import com.scrollablelayout.ScrollableLayout;
 

@@ -1,8 +1,8 @@
 package top.yokey.shopnc.activity.choose;
 
 import android.content.Intent;
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.Toolbar;
 
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.view.PullRefreshView;

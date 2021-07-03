@@ -1,9 +1,9 @@
 package top.yokey.shopnc.activity.order;
 
 import android.content.Intent;
-import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 
 import top.yokey.base.util.ImageUtil;

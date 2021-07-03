@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainLinearLayout"
     style="@style/Layout.Main">
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/toolbarLinearLayout"
         style="@style/Layout.Horizontal"
         android:layout_height="48dip"
         android:background="@color/primary">
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/scanImageView"
             style="@style/ImageView.Toolbar"
             android:background="@drawable/selector_color_primary"
             android:src="@drawable/ic_action_scan_white" />
 
-        <android.support.v7.widget.AppCompatEditText
+        <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/searchEditText"
             style="@style/EditText.SearchToolbar" />
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/messageImageView"
             style="@style/ImageView.Toolbar"
             android:background="@drawable/selector_color_primary"
             android:src="@drawable/ic_action_message_white" />
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/mainSwipeRefreshLayout"
         style="@style/Layout.Main">
 
-        <android.support.v4.widget.NestedScrollView
+        <androidx.core.widget.NestedScrollView
             android:id="@+id/mainScrollView"
             style="@style/Layout.Main">
 
-            <android.support.v7.widget.LinearLayoutCompat style="@style/Layout.Main">
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/Layout.Main">
 
                 <com.youth.banner.Banner
                     android:id="@+id/mainBanner"
@@ -50,69 +50,69 @@
                     android:layout_height="12dip"
                     android:background="@color/white" />
 
-                <android.support.v7.widget.LinearLayoutCompat style="@style/Layout.Horizontal">
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/Layout.Horizontal">
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/categoryTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_category"
                         android:text="分类"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/pointsTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_cart"
                         android:text="积分兑换"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/storeTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_store"
                         android:text="店铺街"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/signTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_sign"
                         android:text="每日签到"
                         tools:ignore="HardcodedText" />
 
-                </android.support.v7.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
-                <android.support.v7.widget.LinearLayoutCompat style="@style/Layout.Horizontal">
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/Layout.Horizontal">
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/mineTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_mine"
                         android:text="我的商城"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/orderTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_order"
                         android:text="我的订单"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/propertyTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_property"
                         android:text="我的财产"
                         tools:ignore="HardcodedText" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/footprintTextView"
                         style="@style/TextView.NavigationHome"
                         android:drawableTop="@mipmap/ic_navigation_home_footprint"
                         android:text="我的足迹"
                         tools:ignore="HardcodedText" />
 
-                </android.support.v7.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <View
                     style="@style/View.Line"
@@ -121,14 +121,14 @@
 
                 <View style="@style/View.Line" />
 
-                <android.support.v7.widget.LinearLayoutCompat
+                <androidx.appcompat.widget.LinearLayoutCompat
                     style="@style/Layout.Horizontal"
                     android:layout_height="48dip"
                     android:background="@color/white"
                     android:paddingLeft="8dip"
                     android:paddingRight="8dip">
 
-                    <android.support.v7.widget.AppCompatImageView
+                    <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="wrap_content"
                         android:layout_height="48dip"
                         android:src="@mipmap/ic_home_new_notice" />
@@ -140,7 +140,7 @@
                         android:layout_marginRight="4dip"
                         android:layout_marginTop="8dip" />
 
-                    <android.support.v7.widget.AppCompatImageView
+                    <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="wrap_content"
                         android:layout_height="48dip"
                         android:layout_marginLeft="4dip"
@@ -161,7 +161,7 @@
                         app:mvTextColor="@color/greyAdd"
                         app:mvTextSize="12sp" />
 
-                    <android.support.v7.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/noticeTextView"
                         style="@style/TextView.Small"
                         android:layout_height="48dip"
@@ -170,16 +170,16 @@
                         android:text="更多..."
                         tools:ignore="HardcodedText" />
 
-                </android.support.v7.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/mainRecyclerView"
                     style="@style/Layout.Main" />
 
-            </android.support.v7.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
-        </android.support.v4.widget.NestedScrollView>
+        </androidx.core.widget.NestedScrollView>
 
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
