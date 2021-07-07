@@ -1,3 +1,4 @@
+build
 .gradle
 .idea
 /build
@@ -5,3 +6,6 @@
 *.iml
 .DS_Store
 .externalNativeBuild
+local.properties
+/release
+.cxx
