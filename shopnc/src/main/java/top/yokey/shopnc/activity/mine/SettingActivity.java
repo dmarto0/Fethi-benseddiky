@@ -1,11 +1,12 @@
 package top.yokey.shopnc.activity.mine;
 
 import android.app.ProgressDialog;
-import androidx.core.content.ContextCompat;
+import android.widget.RelativeLayout;
+
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
-import android.widget.RelativeLayout;
+import androidx.core.content.ContextCompat;
 
 import org.xutils.common.Callback;
 import org.xutils.http.RequestParams;

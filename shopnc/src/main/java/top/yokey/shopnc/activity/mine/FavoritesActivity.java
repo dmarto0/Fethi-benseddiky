@@ -1,19 +1,16 @@
 package top.yokey.shopnc.activity.mine;
 
-import com.google.android.material.tabs.TabLayout;
-import androidx.viewpager.widget.ViewPager;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.BaseViewPagerAdapter;
-import top.yokey.shopnc.adapter.GoodsFavoritesListAdapter;
-import top.yokey.shopnc.adapter.StoreFavoritesListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
@@ -22,9 +19,14 @@ import top.yokey.base.bean.StoreFavoritesBean;
 import top.yokey.base.model.MemberFavoritesModel;
 import top.yokey.base.model.MemberFavoritesStoreModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
-import java.util.List;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.BaseViewPagerAdapter;
+import top.yokey.shopnc.adapter.GoodsFavoritesListAdapter;
+import top.yokey.shopnc.adapter.StoreFavoritesListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

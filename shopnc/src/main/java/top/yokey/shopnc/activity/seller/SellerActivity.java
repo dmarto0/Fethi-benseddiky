@@ -1,27 +1,28 @@
 package top.yokey.shopnc.activity.seller;
 
-import androidx.core.widget.NestedScrollView;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.core.widget.NestedScrollView;
+
 import top.yokey.base.base.BaseDialog;
-import top.yokey.base.base.SellerHttpClient;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseCountTime;
-import top.yokey.shopnc.base.BaseImageLoader;
+import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
-import top.yokey.base.util.JsonUtil;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.base.BaseHttpListener;
-import top.yokey.shopnc.base.BaseShared;
+import top.yokey.base.base.SellerHttpClient;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.bean.SellerIndexBean;
 import top.yokey.base.model.SellerIndexModel;
+import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
+import top.yokey.shopnc.base.BaseImageLoader;
+import top.yokey.shopnc.base.BaseShared;
 
 /**
  * @author MapStory

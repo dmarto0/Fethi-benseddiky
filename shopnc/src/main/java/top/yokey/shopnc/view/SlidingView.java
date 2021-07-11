@@ -1,11 +1,12 @@
 package top.yokey.shopnc.view;
 
 import android.content.Context;
-import androidx.appcompat.widget.AppCompatTextView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.HorizontalScrollView;
+
+import androidx.appcompat.widget.AppCompatTextView;
 
 import top.yokey.shopnc.R;
 

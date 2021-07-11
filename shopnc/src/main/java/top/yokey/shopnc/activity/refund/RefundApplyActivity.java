@@ -1,28 +1,26 @@
 package top.yokey.shopnc.activity.refund;
 
 import android.content.Intent;
-import androidx.appcompat.widget.AppCompatEditText;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatSpinner;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.RelativeLayout;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.GoodsRefundApplyListAdapter;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.shopnc.base.BaseCountTime;
-import top.yokey.shopnc.base.BaseFileClient;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatSpinner;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.zhihu.matisse.Matisse;
+
+import java.util.ArrayList;
+import java.util.Vector;
+
 import top.yokey.base.base.BaseHttpListener;
-import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
 import top.yokey.base.bean.BaseBean;
@@ -31,11 +29,14 @@ import top.yokey.base.bean.RefundApplyBean;
 import top.yokey.base.model.MemberRefundModel;
 import top.yokey.base.util.ImageUtil;
 import top.yokey.base.util.JsonUtil;
-
-import com.zhihu.matisse.Matisse;
-
-import java.util.ArrayList;
-import java.util.Vector;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.GoodsRefundApplyListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
+import top.yokey.shopnc.base.BaseFileClient;
+import top.yokey.shopnc.base.BaseImageLoader;
 
 /**
  * @author MapStory

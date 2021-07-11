@@ -1,19 +1,20 @@
 package top.yokey.shopnc.activity.mine;
 
+import android.text.TextUtils;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.TextUtils;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.model.MemberFeedbackModel;
 import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
 
 /**
  * @author MapStory

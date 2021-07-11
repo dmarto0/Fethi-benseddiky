@@ -1,22 +1,19 @@
 package top.yokey.shopnc.activity.goods;
 
 import android.content.Intent;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
 import com.squareup.otto.Subscribe;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.activity.main.MainActivity;
-import top.yokey.shopnc.adapter.BaseFragmentAdapter;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseBusClient;
-import top.yokey.shopnc.base.BaseConstant;
+import java.util.ArrayList;
+import java.util.List;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
@@ -25,13 +22,17 @@ import top.yokey.base.event.GoodsAreaEvent;
 import top.yokey.base.event.GoodsBeanEvent;
 import top.yokey.base.event.GoodsEvaluateEvent;
 import top.yokey.base.event.GoodsGoneEvent;
-import top.yokey.base.event.GoodsShowEvent;
 import top.yokey.base.event.GoodsIdEvent;
+import top.yokey.base.event.GoodsShowEvent;
 import top.yokey.base.model.GoodsModel;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.activity.main.MainActivity;
+import top.yokey.shopnc.adapter.BaseFragmentAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseBusClient;
+import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseCountTime;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author MapStory

@@ -1,24 +1,21 @@
 package top.yokey.shopnc.activity.store;
 
 import android.content.Intent;
-import androidx.appcompat.widget.AppCompatEditText;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.RelativeLayout;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.GoodsListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
@@ -27,8 +24,12 @@ import top.yokey.base.bean.GoodsBean;
 import top.yokey.base.model.MemberCartModel;
 import top.yokey.base.model.StoreModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.GoodsListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

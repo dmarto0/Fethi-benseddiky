@@ -19,8 +19,8 @@ import top.yokey.shopnc.R;
 @SuppressWarnings("ALL")
 public class BaseImageLoader {
 
-    private Context context;
     private static volatile BaseImageLoader instance;
+    private Context context;
 
     public static BaseImageLoader get() {
         if (instance == null) {

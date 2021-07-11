@@ -1,12 +1,13 @@
 package top.yokey.shopnc.activity.points;
 
 import android.content.Intent;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
 
 import top.yokey.base.base.BaseDialog;
 import top.yokey.base.base.BaseHttpListener;

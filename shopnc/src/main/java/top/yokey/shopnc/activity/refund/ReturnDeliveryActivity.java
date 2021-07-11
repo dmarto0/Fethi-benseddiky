@@ -1,19 +1,18 @@
 package top.yokey.shopnc.activity.refund;
 
-import androidx.appcompat.widget.AppCompatEditText;
-import androidx.appcompat.widget.AppCompatSpinner;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.shopnc.base.BaseCountTime;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatSpinner;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
+
+import java.util.ArrayList;
+import java.util.Vector;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
@@ -21,9 +20,11 @@ import top.yokey.base.bean.BaseBean;
 import top.yokey.base.bean.ExpressBean;
 import top.yokey.base.model.MemberReturnModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
-import java.util.Vector;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
 
 /**
  * @author MapStory

@@ -1,13 +1,14 @@
 package top.yokey.shopnc.activity.mine;
 
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
+
+import top.yokey.base.base.BaseSnackBar;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.base.base.BaseSnackBar;
 
 /**
  * @author MapStory

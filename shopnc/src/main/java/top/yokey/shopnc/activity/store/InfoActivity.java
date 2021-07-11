@@ -3,8 +3,6 @@ package top.yokey.shopnc.activity.store;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
-import androidx.core.widget.ContentLoadingProgressBar;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.webkit.WebChromeClient;
@@ -12,11 +10,14 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.widget.ContentLoadingProgressBar;
+
+import top.yokey.base.base.BaseToast;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.base.BaseToast;
 
 /**
  * @author MapStory

@@ -15,8 +15,8 @@ import android.view.animation.TranslateAnimation;
 @SuppressWarnings("ALL")
 public class BaseAnimClient {
 
-    private int time;
     private static volatile BaseAnimClient instance;
+    private int time;
 
     public static BaseAnimClient get() {
         if (instance == null) {

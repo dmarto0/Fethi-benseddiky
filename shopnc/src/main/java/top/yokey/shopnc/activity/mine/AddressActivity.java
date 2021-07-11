@@ -1,23 +1,24 @@
 package top.yokey.shopnc.activity.mine;
 
 import android.content.Intent;
+
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.Toolbar;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.AddressListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.AddressBean;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.model.MemberAddressModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.AddressListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

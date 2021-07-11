@@ -2,18 +2,18 @@ package top.yokey.shopnc.activity.home;
 
 import androidx.appcompat.widget.Toolbar;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.ArticleListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.bean.ArticleBean;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.model.ArticleModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.ArticleListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

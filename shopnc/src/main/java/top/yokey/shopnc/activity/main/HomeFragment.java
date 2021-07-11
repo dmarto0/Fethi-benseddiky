@@ -1,18 +1,36 @@
 package top.yokey.shopnc.activity.main;
 
 import android.os.Handler;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import android.view.View;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.View;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.sunfusheng.marqueeview.MarqueeView;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import io.github.xudaojie.qrcodelib.CaptureActivity;
+import top.yokey.base.base.BaseHttpListener;
+import top.yokey.base.base.BaseSnackBar;
+import top.yokey.base.bean.ArticleBean;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.bean.HomeBean;
+import top.yokey.base.event.MainPositionEvent;
+import top.yokey.base.model.IndexModel;
+import top.yokey.base.util.JsonUtil;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.base.LoginActivity;
 import top.yokey.shopnc.activity.home.ChatListActivity;
@@ -27,24 +45,7 @@ import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseBusClient;
 import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseFragment;
-import top.yokey.base.base.BaseHttpListener;
-import top.yokey.base.base.BaseSnackBar;
 import top.yokey.shopnc.base.UBLImageLoader;
-import top.yokey.base.bean.ArticleBean;
-import top.yokey.base.bean.BaseBean;
-import top.yokey.base.bean.HomeBean;
-import top.yokey.base.event.MainPositionEvent;
-import top.yokey.base.model.IndexModel;
-import top.yokey.base.util.JsonUtil;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.xutils.view.annotation.ContentView;
-import org.xutils.view.annotation.ViewInject;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author MapStory

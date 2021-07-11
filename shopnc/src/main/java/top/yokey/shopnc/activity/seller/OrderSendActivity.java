@@ -1,14 +1,15 @@
 package top.yokey.shopnc.activity.seller;
 
+import android.text.Html;
+import android.text.TextUtils;
+import android.view.View;
+
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatRadioButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.Html;
-import android.text.TextUtils;
-import android.view.View;
+import androidx.recyclerview.widget.RecyclerView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,23 +17,23 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseCountTime;
 import top.yokey.base.base.BaseHttpListener;
-import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
 import top.yokey.base.bean.BaseBean;
-import top.yokey.base.util.JsonUtil;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.ExpressSellerSendListAdapter;
-import top.yokey.shopnc.adapter.GoodsOrderSellerListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.base.bean.ExpressSellerSendBean;
 import top.yokey.base.bean.OrderSellerBean;
 import top.yokey.base.model.SellerExpressModel;
 import top.yokey.base.model.SellerOrderModel;
+import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.ExpressSellerSendListAdapter;
+import top.yokey.shopnc.adapter.GoodsOrderSellerListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
+import top.yokey.shopnc.base.BaseImageLoader;
 
 /**
  * @author MapStory

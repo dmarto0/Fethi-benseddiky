@@ -13,9 +13,9 @@ import android.content.SharedPreferences;
 @SuppressWarnings("ALL")
 public class BaseShared {
 
+    private static volatile BaseShared instance;
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor sharedPreferencesEditor;
-    private static volatile BaseShared instance;
 
     public static BaseShared get() {
         if (instance == null) {

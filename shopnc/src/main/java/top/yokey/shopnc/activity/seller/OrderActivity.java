@@ -2,13 +2,15 @@ package top.yokey.shopnc.activity.seller;
 
 import android.content.Intent;
 import android.graphics.Color;
-import com.google.android.material.tabs.TabLayout;
-import androidx.viewpager.widget.ViewPager;
+import android.view.View;
+
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.Toolbar;
-import android.view.View;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,16 +18,16 @@ import java.util.List;
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
+import top.yokey.base.bean.OrderSellerBean;
+import top.yokey.base.model.SellerOrderModel;
 import top.yokey.base.util.JsonUtil;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.adapter.BaseViewPagerAdapter;
 import top.yokey.shopnc.adapter.OrderSellerListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.bean.OrderSellerBean;
-import top.yokey.base.model.SellerOrderModel;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

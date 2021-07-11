@@ -18,9 +18,8 @@ import java.io.IOException;
 @SuppressWarnings("ALL")
 public class BaseFileClient {
 
-    private String packName;
-
     private static volatile BaseFileClient instance;
+    private String packName;
 
     public static BaseFileClient get() {
         if (instance == null) {

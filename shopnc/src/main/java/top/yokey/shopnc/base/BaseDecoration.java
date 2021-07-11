@@ -5,9 +5,10 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
+import android.view.View;
+
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.View;
 
 /**
  * RecyclerView分割线
@@ -20,10 +21,9 @@ import android.view.View;
 @SuppressWarnings("ALL")
 public class BaseDecoration extends RecyclerView.ItemDecoration {
 
-    public final int[] ATRRS = new int[]{android.R.attr.listDivider};
     public static final int VERTICAL = LinearLayoutManager.VERTICAL;
     public static final int HORIZONTAL = LinearLayoutManager.HORIZONTAL;
-
+    public final int[] ATRRS = new int[]{android.R.attr.listDivider};
     private Context context;
     private Drawable divider;
 

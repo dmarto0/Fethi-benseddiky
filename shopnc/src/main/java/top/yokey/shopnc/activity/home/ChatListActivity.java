@@ -2,22 +2,22 @@ package top.yokey.shopnc.activity.home;
 
 import androidx.appcompat.widget.Toolbar;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.ChatListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.base.base.BaseHttpListener;
-import top.yokey.base.bean.BaseBean;
-import top.yokey.base.bean.ChatListBean;
-import top.yokey.base.model.MemberChatModel;
-import top.yokey.base.util.JsonUtil;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+
+import top.yokey.base.base.BaseHttpListener;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.bean.ChatListBean;
+import top.yokey.base.model.MemberChatModel;
+import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.ChatListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

@@ -1,8 +1,9 @@
 package top.yokey.shopnc.activity.seller;
 
+import android.text.TextUtils;
+
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.TextUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -14,14 +15,14 @@ import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
 import top.yokey.base.bean.BaseBean;
-import top.yokey.base.util.JsonUtil;
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.ExpressSellerListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.base.bean.ExpressSellerBean;
 import top.yokey.base.model.SellerExpressModel;
+import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.ExpressSellerListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

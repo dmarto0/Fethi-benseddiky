@@ -1,28 +1,29 @@
 package top.yokey.shopnc.activity.goods;
 
 import android.annotation.SuppressLint;
-import androidx.core.widget.ContentLoadingProgressBar;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.core.widget.ContentLoadingProgressBar;
+
 import com.squareup.otto.Subscribe;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseFragment;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.event.GoodsBeanEvent;
 import top.yokey.base.model.GoodsModel;
 import top.yokey.base.util.TextUtil;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.xutils.view.annotation.ContentView;
-import org.xutils.view.annotation.ViewInject;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseFragment;
 
 /**
  * @author MapStory

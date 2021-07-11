@@ -5,13 +5,20 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
+
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.TaskStackBuilder;
 import androidx.core.content.ContextCompat;
-import androidx.appcompat.widget.LinearLayoutCompat;
-import android.text.TextUtils;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+import top.yokey.base.base.BaseSnackBar;
+import top.yokey.base.base.BaseToast;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.goods.GoodsActivity;
 import top.yokey.shopnc.activity.main.MainActivity;
@@ -20,12 +27,6 @@ import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseCountTime;
-import top.yokey.base.base.BaseSnackBar;
-import top.yokey.base.base.BaseToast;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
 /**
  * @author MapStory

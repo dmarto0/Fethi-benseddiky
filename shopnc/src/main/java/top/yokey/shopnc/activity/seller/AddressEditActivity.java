@@ -1,24 +1,25 @@
 package top.yokey.shopnc.activity.seller;
 
 import android.content.Intent;
+import android.text.TextUtils;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
-import android.text.TextUtils;
 
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
+import top.yokey.base.bean.AddressSellerBean;
 import top.yokey.base.bean.BaseBean;
+import top.yokey.base.model.SellerAddressModel;
 import top.yokey.base.util.TextUtil;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.choose.AreaActivity;
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.bean.AddressSellerBean;
-import top.yokey.base.model.SellerAddressModel;
 
 /**
  * @author MapStory

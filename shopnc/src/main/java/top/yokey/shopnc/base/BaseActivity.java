@@ -2,12 +2,13 @@ package top.yokey.shopnc.base;
 
 import android.app.Activity;
 import android.os.Bundle;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
+
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
 
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.view.slide.SlideBackActivity;

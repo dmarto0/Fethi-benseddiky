@@ -1,28 +1,29 @@
 package top.yokey.shopnc.activity.main;
 
-import androidx.appcompat.widget.AppCompatCheckBox;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.appcompat.widget.Toolbar;
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.activity.base.LoginActivity;
-import top.yokey.shopnc.adapter.CartListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
+import androidx.appcompat.widget.AppCompatCheckBox;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.Toolbar;
+
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.bean.CartBean;
 import top.yokey.base.model.MemberCartModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.activity.base.LoginActivity;
+import top.yokey.shopnc.adapter.CartListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

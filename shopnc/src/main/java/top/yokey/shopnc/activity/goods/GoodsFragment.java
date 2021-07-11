@@ -1,26 +1,52 @@
 package top.yokey.shopnc.activity.goods;
 
 import android.graphics.Paint;
-import androidx.appcompat.widget.AppCompatEditText;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.squareup.otto.Subscribe;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+
 import cn.sharesdk.onekeyshare.OnekeyShare;
-import top.yokey.base.bean.BaseBean;
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.bean.EvaluateGoodsBean;
+import top.yokey.base.bean.GoodsCommendBean;
+import top.yokey.base.bean.VoucherGoodsBean;
+import top.yokey.base.event.GoodsAreaEvent;
+import top.yokey.base.event.GoodsBeanEvent;
+import top.yokey.base.event.GoodsEvaluateEvent;
+import top.yokey.base.event.GoodsGoneEvent;
+import top.yokey.base.event.GoodsIdEvent;
+import top.yokey.base.event.GoodsShowEvent;
+import top.yokey.base.model.GoodsModel;
+import top.yokey.base.model.MemberCartModel;
+import top.yokey.base.model.MemberFavoritesModel;
+import top.yokey.base.model.MemberVoucherModel;
+import top.yokey.base.util.JsonUtil;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.base.LoginActivity;
 import top.yokey.shopnc.activity.choose.AreaActivity;
@@ -36,32 +62,7 @@ import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseFragment;
 import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.shopnc.base.UBLImageLoader;
-import top.yokey.base.bean.EvaluateGoodsBean;
-import top.yokey.base.bean.GoodsCommendBean;
-import top.yokey.base.bean.VoucherGoodsBean;
-import top.yokey.base.event.GoodsAreaEvent;
-import top.yokey.base.event.GoodsBeanEvent;
-import top.yokey.base.event.GoodsEvaluateEvent;
-import top.yokey.base.event.GoodsGoneEvent;
-import top.yokey.base.event.GoodsShowEvent;
-import top.yokey.base.event.GoodsIdEvent;
-import top.yokey.base.model.GoodsModel;
-import top.yokey.base.model.MemberCartModel;
-import top.yokey.base.model.MemberFavoritesModel;
-import top.yokey.base.model.MemberVoucherModel;
-import top.yokey.base.util.JsonUtil;
 import top.yokey.shopnc.view.CenterTextView;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.xutils.view.annotation.ContentView;
-import org.xutils.view.annotation.ViewInject;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
 
 /**
  * @author MapStory

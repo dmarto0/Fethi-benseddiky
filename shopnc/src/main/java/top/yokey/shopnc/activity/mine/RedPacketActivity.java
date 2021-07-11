@@ -1,33 +1,35 @@
 package top.yokey.shopnc.activity.mine;
 
-import com.google.android.material.tabs.TabLayout;
-import androidx.viewpager.widget.ViewPager;
+import android.text.TextUtils;
+import android.view.View;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.TextUtils;
-import android.view.View;
+import androidx.viewpager.widget.ViewPager;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.BaseViewPagerAdapter;
-import top.yokey.shopnc.adapter.RedPacketListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.shopnc.base.BaseCountTime;
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import top.yokey.base.base.BaseHttpListener;
-import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
 import top.yokey.base.bean.RedPacketBean;
 import top.yokey.base.model.MemberRedPackerModel;
 import top.yokey.base.model.SeccodeModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
-import java.util.List;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.BaseViewPagerAdapter;
+import top.yokey.shopnc.adapter.RedPacketListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
+import top.yokey.shopnc.base.BaseImageLoader;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

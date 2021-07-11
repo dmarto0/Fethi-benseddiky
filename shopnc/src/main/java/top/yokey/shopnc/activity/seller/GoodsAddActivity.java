@@ -1,34 +1,35 @@
 package top.yokey.shopnc.activity.seller;
 
 import android.content.Intent;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatRadioButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
 
 import com.zhihu.matisse.Matisse;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.base.BaseFileClient;
 import top.yokey.base.base.BaseHttpListener;
-import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
 import top.yokey.base.bean.BaseBean;
+import top.yokey.base.model.SellerAlbumModel;
+import top.yokey.base.model.SellerGoodsModel;
 import top.yokey.base.util.ImageUtil;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.choose.CateActivity;
+import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.model.SellerAlbumModel;
-import top.yokey.base.model.SellerGoodsModel;
+import top.yokey.shopnc.base.BaseFileClient;
+import top.yokey.shopnc.base.BaseImageLoader;
 
 /**
  * @author MapStory

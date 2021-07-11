@@ -1,16 +1,34 @@
 package top.yokey.shopnc.activity.main;
 
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.LinearLayoutCompat;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.LinearLayoutCompat;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+
+import top.yokey.base.base.BaseHttpListener;
+import top.yokey.base.base.BaseSnackBar;
+import top.yokey.base.base.BaseToast;
 import top.yokey.base.base.MemberHttpClient;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.bean.MemberAssetBean;
+import top.yokey.base.bean.MemberBean;
+import top.yokey.base.event.MessageCountEvent;
+import top.yokey.base.model.MemberAccountModel;
+import top.yokey.base.model.MemberChatModel;
+import top.yokey.base.model.MemberIndexModel;
+import top.yokey.base.util.JsonUtil;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.activity.base.LoginActivity;
 import top.yokey.shopnc.activity.mine.AddressActivity;
+import top.yokey.shopnc.activity.mine.CenterActivity;
 import top.yokey.shopnc.activity.mine.DistributionActivity;
 import top.yokey.shopnc.activity.mine.FeedbackActivity;
 import top.yokey.shopnc.activity.mine.FootprintActivity;
@@ -20,7 +38,6 @@ import top.yokey.shopnc.activity.mine.PreDepositActivity;
 import top.yokey.shopnc.activity.mine.PropertyActivity;
 import top.yokey.shopnc.activity.mine.RechargeCardActivity;
 import top.yokey.shopnc.activity.mine.RedPacketActivity;
-import top.yokey.shopnc.activity.mine.CenterActivity;
 import top.yokey.shopnc.activity.mine.SettingActivity;
 import top.yokey.shopnc.activity.mine.SignActivity;
 import top.yokey.shopnc.activity.mine.VoucherActivity;
@@ -32,24 +49,8 @@ import top.yokey.shopnc.base.BaseBusClient;
 import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseCountTime;
 import top.yokey.shopnc.base.BaseFragment;
-import top.yokey.base.base.BaseHttpListener;
 import top.yokey.shopnc.base.BaseImageLoader;
 import top.yokey.shopnc.base.BaseShared;
-import top.yokey.base.base.BaseSnackBar;
-import top.yokey.base.base.BaseToast;
-import top.yokey.base.bean.BaseBean;
-import top.yokey.base.bean.MemberAssetBean;
-import top.yokey.base.bean.MemberBean;
-import top.yokey.base.event.MessageCountEvent;
-import top.yokey.base.model.MemberAccountModel;
-import top.yokey.base.model.MemberChatModel;
-import top.yokey.base.model.MemberIndexModel;
-import top.yokey.base.util.JsonUtil;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.xutils.view.annotation.ContentView;
-import org.xutils.view.annotation.ViewInject;
 
 /**
  * @author MapStory

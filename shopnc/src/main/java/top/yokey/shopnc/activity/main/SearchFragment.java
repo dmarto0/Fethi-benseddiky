@@ -1,22 +1,11 @@
 package top.yokey.shopnc.activity.main;
 
+import android.view.inputmethod.EditorInfo;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.inputmethod.EditorInfo;
-
-import io.github.xudaojie.qrcodelib.CaptureActivity;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.SearchHistoryListAdapter;
-import top.yokey.shopnc.adapter.SearchKeyListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.shopnc.base.BaseFragment;
-import top.yokey.base.base.BaseHttpListener;
-import top.yokey.base.bean.BaseBean;
-import top.yokey.base.model.IndexModel;
-import top.yokey.base.util.JsonUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -24,6 +13,18 @@ import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.ViewInject;
 
 import java.util.ArrayList;
+
+import io.github.xudaojie.qrcodelib.CaptureActivity;
+import top.yokey.base.base.BaseHttpListener;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.model.IndexModel;
+import top.yokey.base.util.JsonUtil;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.SearchHistoryListAdapter;
+import top.yokey.shopnc.adapter.SearchKeyListAdapter;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseFragment;
 
 /**
  * @author MapStory

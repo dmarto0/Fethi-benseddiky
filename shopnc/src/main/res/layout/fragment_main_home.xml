@@ -135,10 +135,10 @@
 
                     <View
                         style="@style/View.Horizontal"
-                        android:layout_marginBottom="8dip"
                         android:layout_marginLeft="4dip"
+                        android:layout_marginTop="8dip"
                         android:layout_marginRight="4dip"
-                        android:layout_marginTop="8dip" />
+                        android:layout_marginBottom="8dip" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="wrap_content"

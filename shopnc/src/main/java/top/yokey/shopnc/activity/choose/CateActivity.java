@@ -1,18 +1,13 @@
 package top.yokey.shopnc.activity.choose;
 
 import android.content.Intent;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.BrandRecommendListAdapter;
-import top.yokey.shopnc.adapter.ClassChildListAdapter;
-import top.yokey.shopnc.adapter.ClassListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.bean.BaseBean;
@@ -22,8 +17,14 @@ import top.yokey.base.bean.ClassChildBean;
 import top.yokey.base.model.BrandModel;
 import top.yokey.base.model.ClassModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.BrandRecommendListAdapter;
+import top.yokey.shopnc.adapter.ClassChildListAdapter;
+import top.yokey.shopnc.adapter.ClassListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory

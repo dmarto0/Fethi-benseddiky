@@ -3,12 +3,12 @@ package top.yokey.shopnc.activity.mine;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 
+import top.yokey.base.base.BaseToast;
+import top.yokey.base.bean.PreDepositCashLogBean;
 import top.yokey.shopnc.R;
 import top.yokey.shopnc.base.BaseActivity;
 import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.base.base.BaseToast;
-import top.yokey.base.bean.PreDepositCashLogBean;
 
 /**
  * @author MapStory

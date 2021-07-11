@@ -1,14 +1,17 @@
 package top.yokey.shopnc.activity.base;
 
+import android.text.TextUtils;
+
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
-import android.text.TextUtils;
-import top.yokey.base.base.MemberHttpClient;
-import top.yokey.base.bean.BaseBean;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
+import top.yokey.base.base.MemberHttpClient;
+import top.yokey.base.bean.BaseBean;
+import top.yokey.base.model.ConnectModel;
 import top.yokey.base.util.JsonUtil;
 import top.yokey.base.util.TextUtil;
 import top.yokey.shopnc.R;
@@ -18,7 +21,6 @@ import top.yokey.shopnc.base.BaseApplication;
 import top.yokey.shopnc.base.BaseConstant;
 import top.yokey.shopnc.base.BaseCountTime;
 import top.yokey.shopnc.base.BaseShared;
-import top.yokey.base.model.ConnectModel;
 
 /**
  * @author MapStory

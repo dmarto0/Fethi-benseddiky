@@ -1,10 +1,5 @@
 package top.yokey.shopnc.adapter;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.widget.AppCompatEditText;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -13,14 +8,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseImageLoader;
-import top.yokey.shopnc.base.BaseViewHolder;
-import top.yokey.base.bean.OrderEvaluateAgainBean;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import org.xutils.view.annotation.ViewInject;
 
 import java.util.ArrayList;
+
+import top.yokey.base.bean.OrderEvaluateAgainBean;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseImageLoader;
+import top.yokey.shopnc.base.BaseViewHolder;
 
 /**
  * 适配器

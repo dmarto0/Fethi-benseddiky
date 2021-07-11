@@ -1,24 +1,25 @@
 package top.yokey.shopnc.adapter;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseImageLoader;
-import top.yokey.shopnc.base.BaseViewHolder;
-import top.yokey.base.bean.ChatListBean;
-import top.yokey.shopnc.view.SlidingView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import org.xutils.view.annotation.ViewInject;
 
 import java.util.ArrayList;
+
+import top.yokey.base.bean.ChatListBean;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseImageLoader;
+import top.yokey.shopnc.base.BaseViewHolder;
+import top.yokey.shopnc.view.SlidingView;
 
 /**
  * 适配器

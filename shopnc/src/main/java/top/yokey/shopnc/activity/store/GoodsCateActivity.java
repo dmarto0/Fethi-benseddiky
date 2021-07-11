@@ -1,16 +1,12 @@
 package top.yokey.shopnc.activity.store;
 
 import android.content.Intent;
-import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 
-import top.yokey.shopnc.base.BaseActivity;
-import top.yokey.shopnc.view.PullRefreshView;
-import top.yokey.shopnc.R;
-import top.yokey.shopnc.adapter.ClassStoreListAdapter;
-import top.yokey.shopnc.base.BaseApplication;
-import top.yokey.shopnc.base.BaseConstant;
-import top.yokey.shopnc.base.BaseCountTime;
+import androidx.appcompat.widget.Toolbar;
+
+import java.util.ArrayList;
+
 import top.yokey.base.base.BaseHttpListener;
 import top.yokey.base.base.BaseSnackBar;
 import top.yokey.base.base.BaseToast;
@@ -18,8 +14,13 @@ import top.yokey.base.bean.BaseBean;
 import top.yokey.base.bean.ClassStoreBean;
 import top.yokey.base.model.StoreModel;
 import top.yokey.base.util.JsonUtil;
-
-import java.util.ArrayList;
+import top.yokey.shopnc.R;
+import top.yokey.shopnc.adapter.ClassStoreListAdapter;
+import top.yokey.shopnc.base.BaseActivity;
+import top.yokey.shopnc.base.BaseApplication;
+import top.yokey.shopnc.base.BaseConstant;
+import top.yokey.shopnc.base.BaseCountTime;
+import top.yokey.shopnc.view.PullRefreshView;
 
 /**
  * @author MapStory
