@@ -1,12 +1,12 @@
 **# 特别提醒**
 
-本项目2018年6月8日转入Shopwt开发，新项目地址：[Shopwt Andoird 码云](https://gitee.com/MapStory/Shopwt-Android) [Shopwt Andoird Github](https://github.com/oyo775881/Shopwt-Android)
+本项目2018年6月8日转入ShopAI B2B2C Android开发，新项目地址：[ShopAI B2B2C Android 码云](https://gitee.com/oyo775881/shopai-b2b2c-android) 
 
-本项目2018年6月8日之后不再进行新功能开发，仅做一些BUG修改，紧随时代潮流，改用Shopwt吧~
+本项目2018年6月8日之后不再进行新功能开发，仅做一些BUG修改，紧随时代潮流，改用ShopAI吧~
 
 PS:2018年7月24日，小幅度更新一波，主要是解决依赖的问题，已经热更新的一个小BUG。
 
-**# ShopNc Android** 
+**# ShopNC Android** 
 
 **警告：禁止任何未授权商用！**  
 
